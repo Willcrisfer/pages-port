@@ -1,7 +1,7 @@
 import React from "react";
 import CardProjects from "../../components/cardProjects/CardProjects";
 import { useProfile } from "../../context/ProfileContext";
-import backgroundDesktop from "../../assets/projectsPage/background_desktop.mp4";
+
 import backgroundMobile from "../../assets/projectsPage/background_mobile.mp4";
 
 
@@ -16,7 +16,7 @@ const Projects = () => {
     return (
         <section id="projects" className="projects max-width">
             
-            <video src={backgroundDesktop} autoPlay loop muted className="projects__background"></video>
+            <video src={backgroundMobile} autoPlay loop muted className="projects__background"></video>
             <video src={backgroundMobile} autoPlay loop muted className="projects__background2"></video>
            
             
